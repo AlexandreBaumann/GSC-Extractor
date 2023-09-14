@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def add_category():
     # Charger les données à partir des fichiers CSV
     search_data = pd.read_csv('search_console_data.csv')
