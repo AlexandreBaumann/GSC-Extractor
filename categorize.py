@@ -3,7 +3,7 @@ import pandas as pd
 
 def add_category():
     # Charger les données à partir des fichiers CSV
-    search_data = pd.read_csv('gscData.csv')
+    search_data = pd.read_csv('search_console_data.csv')
     # contient les colonnes 'Remplacer' et 'url'
     categories_data = pd.read_csv('url_replace.csv')
 
